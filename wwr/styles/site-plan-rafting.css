@@ -28,7 +28,6 @@ Fonts are separated by a & */
     --nav-background-color: #D4AC0D;
     --nav-hover-link-color: white;
     --nav-hover-background-color: #396E94;
-    --colored-color: #1e5983ff;
 }
 
 
@@ -98,8 +97,8 @@ p {
   background-color: var(--accent2-color);
 }
 p.colored {
-  background-color: var(--paragraph-background-color);
-  color: var(--paragraph-color-on-color);
+    background-color: var(--paragraph-background-color);
+    color: #1e5983ff;
 }
 nav {
   background-color: var(--nav-background-color);
