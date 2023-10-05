@@ -4,17 +4,21 @@ a {
     text-decoration: none;
     padding: 10px;
     margin: 10px
-    text-align center;
+}
+a:hover {
+    background-color: darkgray;
+    color: white;
 }
 nav{
     display: flex;
+    justify-content: center;
 }
-p.background{
+img{
+    width: 600px;
+}
+h1{
+    font-size: 1em;
+}
+.background {
     background-color: yellow;
-}
-body{
-    background-color: grey;
-}
-#primary{
-    color: red;
 }
