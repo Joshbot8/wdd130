@@ -2,9 +2,13 @@
 body {
     background-color: #fcfbfb;
     font-family: Raleway, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 16px; /* I kept the font-size from the first code */
     margin: 0;
     padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 /* Header Grid */
@@ -217,4 +221,42 @@ footer {
         width: 1600px;
         margin: 0
     }
+}
+
+/* Additional Styles from Second Code */
+.book, .join {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+}
+
+    .book:hover {
+        background-color: black;
+    }
+
+    .join:hover {
+        background-color: black;
+    }
+
+.msg {
+    font-size: 22px;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+#content {
+    width: 1600px;
+    margin: 0 auto;
 }
