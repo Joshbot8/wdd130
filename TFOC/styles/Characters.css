@@ -20,7 +20,7 @@ header {
 }
 
 .logo {
-    max-width: 50%; /* Make the logo responsive */
+    max-width: 100%; /* Make the logo responsive across all widths */
     height: auto;
 }
 
@@ -112,4 +112,3 @@ ul {
 
 nav a:focus {
     outline: 2px solid #fff; /* Add focus outline */
-}
