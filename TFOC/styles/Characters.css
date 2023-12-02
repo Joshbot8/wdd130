@@ -20,7 +20,7 @@ header {
 }
 
 .logo {
-    max-width: 100%; /* Make the logo responsive across all widths */
+    max-width: 50%; /* Make the logo responsive across all widths */
     height: auto;
 }
 
