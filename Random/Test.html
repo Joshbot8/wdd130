@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         /* The sidebar menu */
         .sidenav {
-            height: 100%; /* Full-height: remove this if you want "auto" height */
-            width: 160px; /* Set the width of the sidebar */
-            position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-            z-index: 1; /* Stay on top */
-            top: 0; /* Stay at the top */
+            height: 100%;
+            width: 160px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
             left: 0;
-            background-color: #111; /* Black */
-            overflow-x: hidden; /* Disable horizontal scroll */
+            background-color: #111;
+            overflow-x: hidden;
             padding-top: 20px;
         }
+
             /* The navigation menu links */
             .sidenav a {
                 padding: 6px 8px 6px 16px;
@@ -24,15 +26,68 @@
                 color: #818181;
                 display: block;
             }
+
         /* Add more styles as needed */
+
+        /* Style for the main content */
+        .main {
+            margin-left: 160px;
+            padding: 20px;
+            min-height: 100%; /* Added to ensure the content takes up at least the full height of the viewport */
+            background-color: #f4f4f4; /* Added a background color for better readability */
+        }
+
+        /* Style for the header */
+        .header {
+            text-align: center;
+            font-size: 36px;
+            color: #333;
+        }
+
+        /* Style for the main text */
+        .content {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* Style for the image */
+        .grass-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
     </style>
-    <title>Your Page Title</title>
+    <title>Touching Grass</title>
 </head>
+
 <body>
-    <!-- Side navigation --> <div class="sidenav">
-        <a href="#">About</a> <a href="#">Services</a> <a href="#">Clients</a> <a href="#">Contact</a>
+    <!-- Side navigation -->
+    <div class="sidenav">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
     </div>
-    <!-- Page content --> <div class="main">
+
+    <!-- Page content -->
+    <div class="main">
+        <!-- Header -->
+        <div class="header">
+            Welcome to the World of Touching Grass!
+        </div>
+
+        <!-- Main content -->
+        <div class="content">
+            <p>Connecting with nature is essential. At our "Touching Grass" community, we embrace the beauty and serenity of nature.</p>
+
+            <p>Explore our website to learn more about who we are, the services we offer, and how our clients have benefited from their experiences. Don't hesitate to reach out to us for any inquiries or to join our community.</p>
+
+            <!-- Image of grass -->
+            <img class="grass-image" src="grass_image.jpg" alt="Grass Image">
+        </div>
     </div>
 </body>
+
 </html>
