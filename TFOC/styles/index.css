@@ -92,12 +92,13 @@ nav {
 }
 
 .card-img {
-    max-width: 50%;
+    width: 600px;
     height: auto;
     border-radius: 5px;
 }
 
 .icon {
+    padding-left: 20px;
     width: 300px;
     height: 300px;
     margin-top: 1rem;
