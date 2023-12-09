@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformers: Fall of Cybertron Characters</title>
+    <link type="text/css" rel="stylesheet" href="styles/Characters.css">
+</head>
+
+<body>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/BackPannel.png" alt="Transformers Logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="characters.html">Characters</a>
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+
+    <section id="autobots">
+        <h2>Autobots</h2>
+        <ul class="character-list">
+            <li class="character-item" onclick="toggleDetails('character1')">
+                Optimus Prime
+                <div id="character1-details" class="character-details">
+                    <p>Details about Character 1...</p>
+                </div>
+            </li>
+            <li class="character-item" onclick="toggleDetails('character2')">
+                Jazz
+                <div id="character2-details" class="character-details">
+                    <p>Details about Character 1...</p>
+                </div>
+            </li>
+            <li class="character-item" onclick="toggleDetails('character3')">
+                Cliffjumper
+                <div id="character3-details" class="character-details">
+                    <p>Details about Character 1...</p>
+                </div>
+            </li>
+            <li class="character-item" onclick="toggleDetails('character4')">
+                Bumblebee
+                <div id="character4-details" class="character-details">
+                    <p>Details about Character 1...</p>
+                </div>
+            </li>
+            <li class="character-item" onclick="toggleDetails('character5')">
+                Grimlock
+                <div id="character5-details" class="character-details">
+                    <p>Details about Character 1...</p>
+                </div>
+            </li>
+            <li class="character-item" onclick="toggleDetails('character6')">
+                Jetfire
+                <div id="character6-details" class="character-details">
+                    <p>Details about Character 1...</p>
+                </div>
+            </li>
+            <li class="character-item" onclick="toggleDetails('character7')">
+                Metroplex
+                <div id="character7-details" class="character-details">
+                    <p>Details about Character 1...</p>
+                </div>
+            </li>
+        </ul>
+        <img class="mountains" src="images/Autobot_Crew.jpg" alt="Autobot Crew">
+    </section>
+
+    <section id="decepticons">
+        <h2>Decepticons</h2>
+        <ul class="character-list">
+            <li class="character-item" onclick="toggleDetails('character8')">
+                Megatron
+                <div id="character8-details" class="character-details">
+                    <p>Details about Character 1...</p>
+                </div>
+            </li>
+            <li class="character-item" onclick="toggleDetails('character9')">
+                Starscream
+                <div id="character9-details" class="character-details">
+                    <p>Details about Character 1...</p>
+                </div>
+            </li>
+            <li class="character-item" onclick="toggleDetails('character10')">
+                Vortex
+                <div id="character10-details" class="character-details">
+                    <p>Details about Character 1...</p>
+                </div>
+            </li>
+            <li class="character-item" onclick="toggleDetails('character11')">
+                Onslaught
+                <div id="character11-details" class="character-details">
+                    <p>Details about Character 1...</p>
+                </div>
+            </li>
+            <li class="character-item" onclick="toggleDetails('character12')">
+                Swindle
+                <div id="character12-details" class="character-details">
+                    <p>Details about Character 1...</p>
+                </div>
+            </li>
+            <li class="character-item" onclick="toggleDetails('character13')">
+                Blastoff
+                <div id="character13-details" class="character-details">
+                    <p>Details about Character 1...</p>
+                </div>
+            </li>
+            <li class="character-item" onclick="toggleDetails('character14')">
+                Brawl
+                <div id="character14-details" class="character-details">
+                    <p>Details about Character 1...</p>
+                </div>
+            </li>
+            <li class="character-item" onclick="toggleDetails('character15')">
+                Bruticus
+                <div id="character15-details" class="character-details">
+                    <p>Details about Character 1...</p>
+                </div>
+            </li>
+        </ul>
+        <img class="mountains" src="images/Decepticon_Crew.jpg" alt="Decepticon Crew">
+    </section>
+
+    <section class="msg">
+        <h2>Custom Characters</h2>
+        <p>Create your own Transformers in multiplayer mode!</p>
+        <img class="mountains" src="images/Characters.jpg" alt="Custom Characters">
+    </section>
+
+    <footer>
+        <p>Transformers: Fall of Cybertron Reboot &copy; 2023 - Joshua Lane</p>
+        <div class="social">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook Icon">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="Twitter Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram Icon">
+            </a>
+        </div>
+    </footer>
+    <script>
+        function toggleDetails(characterId) {
+            var detailsElement = document.getElementById(characterId + '-details');
+            detailsElement.style.display = (detailsElement.style.display === 'none') ? 'block' : 'none';
+        }
+    </script>
+
+</body>
+
+</html>
